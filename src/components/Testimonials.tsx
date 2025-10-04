@@ -6,7 +6,7 @@ import { testimonials } from '@/lib/data';
 
 const Testimonials = () => {
   return (
-    <section className="py-12 sm:py-16 bg-primary-gold/5">
+    <section className="py-12 sm:py-16 bg-gradient-to-r from-primary-soft to-primary-blue text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -15,10 +15,10 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-black mb-4">
+          <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-white mb-4">
             O que nossos clientes dizem
           </h2>
-          <p className="text-lg text-primary-dark max-w-3xl mx-auto font-medium">
+          <p className="text-lg text-white/90 max-w-3xl mx-auto font-medium">
             Mais de 1000 clientes satisfeitos em Porto Alegre e região confiam nos nossos serviços.
           </p>
         </motion.div>
@@ -32,9 +32,9 @@ const Testimonials = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ y: -5 }}
-              className="bg-primary-blue/10 border border-primary-blue/20 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300 relative"
+              className="bg-white/10 border border-white/20 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300 relative"
             >
-              <Quote className="w-8 h-8 text-primary-green mb-4" />
+              <Quote className="w-8 h-8 text-white mb-4" />
               
               <div className="flex mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
@@ -42,15 +42,15 @@ const Testimonials = () => {
                 ))}
               </div>
 
-              <p className="text-primary-dark mb-4 italic font-medium">
+              <p className="text-white/90 mb-4 italic font-medium">
                 &ldquo;{testimonial.comment}&rdquo;
               </p>
 
-              <div className="border-t border-gray-300 pt-4">
-                <h4 className="font-poppins font-semibold text-black text-lg">
+              <div className="border-t border-white/20 pt-4">
+                <h4 className="font-poppins font-semibold text-white text-lg">
                   {testimonial.name}
                 </h4>
-                <p className="text-sm text-primary-dark font-medium">
+                <p className="text-sm text-white/80 font-medium">
                   {testimonial.location}
                 </p>
               </div>
@@ -65,11 +65,11 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="text-center mt-10 sm:mt-12"
         >
-          <div className="bg-primary light:bg-primary rounded-xl p-8 text-white">
+          <div className="bg-white/10 rounded-xl p-8 text-white">
             <h3 className="text-2xl font-poppins font-bold mb-4 text-white">
               Seja nosso próximo cliente satisfeito!
             </h3>
-            <p className="text-lg mb-6 text-white">
+            <p className="text-lg mb-6 text-white/90">
               Entre em contato conosco e descubra por que somos a melhor escolha em desentupimento em Porto Alegre.
             </p>
             <div className="flex justify-center">

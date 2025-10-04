@@ -115,11 +115,11 @@ export default function StrategicDifferentiators() {
           viewport={{ once: true }}
           className="text-center mb-10 sm:mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-poppins font-bold text-primary-soft mb-6">
+          <h2 className="text-4xl lg:text-5xl font-poppins font-bold text-white mb-6">
             Por que escolher a{' '}
             <span className="text-primary-red">G-tec Desentupidora</span>?
           </h2>
-          <p className="text-xl text-primary-gray max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl text-white/90 max-w-4xl mx-auto leading-relaxed">
             Nossos diferenciais garantem o melhor atendimento em desentupimento em Porto Alegre e região.
           </p>
         </motion.div>
@@ -239,24 +239,24 @@ export default function StrategicDifferentiators() {
               whileHover={{ y: -5 }}
               className="group"
             >
-              <div className="bg-primary-green/10 border border-primary-green/20 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+              <div className="bg-gradient-to-r from-primary-soft to-primary-blue rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 h-full text-white">
                 {/* Icon */}
-                <div className={`w-16 h-16 ${item.bgColor} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                  <item.icon className={`w-8 h-8 ${item.color === 'text-primary-red' ? 'text-white' : item.color === 'text-primary-blue' ? 'text-white' : item.color === 'text-primary-green' ? 'text-white' : 'text-primary-soft'}`} />
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <item.icon className="w-8 h-8 text-white" />
                 </div>
 
                 {/* Content */}
-                <h3 className="text-xl font-poppins font-bold text-primary-soft mb-4 leading-tight">
+                <h3 className="text-xl font-poppins font-bold text-white mb-4 leading-tight">
                   {item.title}
                 </h3>
-                <p className="text-primary-gray leading-relaxed">
+                <p className="text-white/90 leading-relaxed">
                   {item.description}
                 </p>
 
                 {/* Decorative Element */}
                 <div className="mt-6 flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary-green mr-2" />
-                  <span className="text-sm font-medium text-primary-green">Garantido</span>
+                  <span className="text-sm font-medium text-white">Garantido</span>
                 </div>
               </div>
             </motion.div>
@@ -312,11 +312,11 @@ export default function StrategicDifferentiators() {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <div className="bg-primary-green/10 border border-primary-green/20 rounded-2xl p-8 shadow-lg">
-            <h3 className="text-2xl lg:text-3xl font-poppins font-bold text-primary-soft mb-4">
+          <div className="bg-gradient-to-r from-primary-soft to-primary-blue rounded-2xl p-8 shadow-lg text-white">
+            <h3 className="text-2xl lg:text-3xl font-poppins font-bold text-white mb-4">
               Pronto para resolver seu problema?
             </h3>
-            <p className="text-lg text-primary-gray mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
               Entre em contato agora e experimente a diferença de um atendimento profissional e eficiente.
             </p>
 

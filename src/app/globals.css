@@ -7,16 +7,45 @@
 }
 
 @theme inline {
+  /* Core theming variables */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* Design system - primary */
+  --color-primary: #0D3B66;
+  --color-primary-light: #3D5A80;
+  --color-primary-dark: #0D3B66;
+  --color-primary-blue: #3D5A80;
+  --color-primary-gray: #5C5C5C;
+  --color-primary-gold: #F4D35E;
+  --color-primary-yellow: #F4D35E;
+  --color-primary-green: #1FAB89;
+  --color-primary-soft: #2A4A6B;
+  /* Compatibility alias used in components */
+  --color-primary-red: #D72638;
+
+  /* Accent palette */
+  --color-accent-red: #D72638;
+  --color-accent-gold: #F4D35E;
+  --color-accent-green: #1FAB89;
+
+  /* Neutral palette */
+  --color-neutral-white: #FFFFFF;
+  --color-neutral-light: #F7F7F7;
+  --color-neutral-dark: #2A4A6B;
+  --color-neutral-trueDark: #1A1A1A;
+  --color-neutral-gray: #5C5C5C;
+
+  /* Fonts (keep existing variables for consistency) */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #2A4A6B;
-    --foreground: #FFFFFF;
+    /* Use uma base neutra para não forçar azul em todo o site */
+    --background: #0f172a; /* slate-900 */
+    --foreground: #e5e7eb; /* gray-200 */
   }
 }
 

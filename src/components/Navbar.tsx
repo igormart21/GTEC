@@ -27,7 +27,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-neutral-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 md:h-24">
           {/* Logo */}
@@ -117,7 +117,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-neutral-white border-t border-neutral-light"
+            className="lg:hidden bg-white border-t border-neutral-light"
           >
             <div className="px-4 py-2 space-y-2">
               {menuItems.map((item) => (

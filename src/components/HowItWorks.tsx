@@ -42,10 +42,10 @@ export default function HowItWorks() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-poppins font-bold text-primary-soft mb-6">
+          <h2 className="text-4xl lg:text-5xl font-poppins font-bold text-white mb-6">
             Como funciona o atendimento da <span className="text-primary-red">G-tec Desentupidora</span>
           </h2>
-          <p className="text-xl text-primary-gray max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl text-white/90 max-w-4xl mx-auto leading-relaxed">
             Nosso processo é simples, rápido e pensado para facilitar sua vida. Desde o primeiro contato até a finalização do serviço, garantimos agilidade, clareza e eficiência em cada etapa.
           </p>
         </motion.div>
@@ -59,7 +59,7 @@ export default function HowItWorks() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 * index }}
               viewport={{ once: true }}
-              className="text-center group"
+              className="text-center group bg-gradient-to-r from-primary-soft to-primary-blue text-white rounded-2xl p-8 shadow-lg"
             >
               <div className="relative mb-6">
                 {/* Step Number */}
@@ -68,15 +68,15 @@ export default function HowItWorks() {
                 </div>
                 
                 {/* Icon Container */}
-                <div className={`w-20 h-20 ${step.color} rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                <div className={`w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
                   <step.icon className="w-10 h-10 text-white" />
                 </div>
               </div>
               
-              <h3 className="text-xl font-poppins font-semibold text-primary-soft mb-4">
+              <h3 className="text-xl font-poppins font-semibold text-white mb-4">
                 {step.title}
               </h3>
-              <p className="text-primary-gray leading-relaxed">
+              <p className="text-white/90 leading-relaxed">
                 {step.description}
               </p>
             </motion.div>

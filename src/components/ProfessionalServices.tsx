@@ -21,7 +21,7 @@ const professionalImages = [
 
 export default function ProfessionalServices() {
   return (
-    <section className="py-12 sm:py-16 lg:py-24 bg-primary-red/5">
+    <section className="py-12 sm:py-16 lg:py-24 bg-primary-blue/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -31,11 +31,11 @@ export default function ProfessionalServices() {
           viewport={{ once: true }}
           className="text-center mb-10 sm:mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-poppins font-bold text-primary-soft mb-6">
+          <h2 className="text-4xl lg:text-5xl font-poppins font-bold text-white mb-6">
             Desentupidora em Porto Alegre com Atendimento 24 Horas
           </h2>
-          <p className="text-xl text-primary-gray max-w-4xl mx-auto leading-relaxed">
-            A <span className="font-semibold text-primary-red">G-tec Desentupidora</span> é especialista em desentupimentos residenciais, comerciais e industriais em Porto Alegre e região metropolitana. Com atendimento emergencial 24 horas, oferecemos rapidez, eficiência e preço justo.
+          <p className="text-xl text-white/90 max-w-4xl mx-auto leading-relaxed">
+            A <span className="font-semibold text-white">G-tec Desentupidora</span> é especialista em desentupimentos residenciais, comerciais e industriais em Porto Alegre e região metropolitana. Com atendimento emergencial 24 horas, oferecemos rapidez, eficiência e preço justo.
           </p>
         </motion.div>
 
@@ -84,30 +84,30 @@ export default function ProfessionalServices() {
           viewport={{ once: true }}
           className="mt-16 text-center"
         >
-          <div className="bg-primary-gold/10 border border-primary-gold/20 rounded-xl p-8">
-            <h4 className="text-2xl font-poppins font-semibold text-primary-soft mb-4">
+          <div className="bg-gradient-to-r from-primary-soft to-primary-blue rounded-2xl p-8 text-white">
+            <h4 className="text-2xl font-poppins font-semibold text-white mb-4">
               Por que escolher a G-tec Desentupidora?
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-primary-green flex-shrink-0 mt-1" />
                 <div>
-                  <h5 className="font-semibold text-primary-soft mb-1">Equipe Experiente</h5>
-                  <p className="text-primary-gray text-sm">Profissionais com anos de experiência no mercado</p>
+                  <h5 className="font-semibold text-white mb-1">Equipe Experiente</h5>
+                  <p className="text-white/90 text-sm">Profissionais com anos de experiência no mercado</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-primary-green flex-shrink-0 mt-1" />
                 <div>
-                  <h5 className="font-semibold text-primary-soft mb-1">Preço Justo</h5>
-                  <p className="text-primary-gray text-sm">Orçamentos transparentes sem surpresas</p>
+                  <h5 className="font-semibold text-white mb-1">Preço Justo</h5>
+                  <p className="text-white/90 text-sm">Orçamentos transparentes sem surpresas</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-primary-green flex-shrink-0 mt-1" />
                 <div>
-                  <h5 className="font-semibold text-primary-soft mb-1">Garantia de Qualidade</h5>
-                  <p className="text-primary-gray text-sm">Compromisso com a satisfação do cliente</p>
+                  <h5 className="font-semibold text-white mb-1">Garantia de Qualidade</h5>
+                  <p className="text-white/90 text-sm">Compromisso com a satisfação do cliente</p>
                 </div>
               </div>
             </div>

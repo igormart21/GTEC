@@ -34,10 +34,10 @@ const ServiceCards = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-primary-soft mb-4">
+          <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-white mb-4">
             Nossos Serviços
           </h2>
-          <p className="text-lg text-primary-gray max-w-3xl mx-auto">
+          <p className="text-lg text-white/90 max-w-3xl mx-auto">
             Oferecemos soluções completas em desentupimento para Porto Alegre e região, 
             com equipamentos modernos e técnicos especializados.
           </p>
@@ -62,7 +62,7 @@ const ServiceCards = () => {
                     <IconComponent className="w-8 h-8 text-white" />
                   </div>
                   
-                  <h3 className="text-xl font-poppins font-semibold text-primary-soft mb-3 text-center">
+                  <h3 className="text-xl font-poppins font-semibold text-neutral-trueDark mb-3 text-center">
                     {service.title}
                   </h3>
                   
