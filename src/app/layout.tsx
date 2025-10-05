@@ -3,6 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import { LocalBusinessSchema, FAQSchema } from "@/lib/schema";
 
 const inter = Inter({ 
@@ -17,12 +18,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "G-tec Desentupidora - Porto Alegre | Desentupimento 24h",
+  title: "G-Tec Desentupidora - Porto Alegre | Desentupimento 24h",
   description: "Desentupidora profissional em Porto Alegre. Atendimento 24 horas, orçamento gratuito e garantia de 90 dias. Especialistas em desentupimento de pia, ralo, vaso, esgoto e limpa fossa.",
   keywords: "desentupidora porto alegre, desentupimento, limpa fossa, desentupidora 24h, desentupimento pia, desentupimento ralo, desentupimento vaso, desentupimento esgoto",
-  authors: [{ name: "G-tec Desentupidora" }],
-  creator: "G-tec Desentupidora",
-  publisher: "G-tec Desentupidora",
+  authors: [{ name: "G-Tec Desentupidora" }],
+  creator: "G-Tec Desentupidora",
+  publisher: "G-Tec Desentupidora",
   formatDetection: {
     email: false,
     address: false,
@@ -33,16 +34,16 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "G-tec Desentupidora - Porto Alegre | Desentupimento 24h",
+    title: "G-Tec Desentupidora - Porto Alegre | Desentupimento 24h",
     description: "Desentupidora profissional em Porto Alegre. Atendimento 24 horas, orçamento gratuito e garantia de 90 dias.",
     url: "https://gtecdesentupidora.com.br",
-    siteName: "G-tec Desentupidora",
+    siteName: "G-Tec Desentupidora",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "G-tec Desentupidora Porto Alegre",
+        alt: "G-Tec Desentupidora Porto Alegre",
       },
     ],
     locale: "pt_BR",
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "G-tec Desentupidora - Porto Alegre | Desentupimento 24h",
+    title: "G-Tec Desentupidora - Porto Alegre | Desentupimento 24h",
     description: "Desentupidora profissional em Porto Alegre. Atendimento 24 horas, orçamento gratuito e garantia de 90 dias.",
     images: ["/images/og-image.jpg"],
   },
@@ -96,6 +97,7 @@ export default function RootLayout({
         <main className="min-h-screen">
           {children}
         </main>
+        <FloatingWhatsApp />
         <Footer />
       </body>
     </html>

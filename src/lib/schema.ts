@@ -3,7 +3,7 @@ import { services } from '@/lib/data';
 export const LocalBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "G-tec Desentupidora",
+  "name": "G-Tec Desentupidora",
   "description": "Desentupidora profissional em Porto Alegre. Atendimento 24 horas, orçamento gratuito e garantia de 90 dias.",
   "url": "https://gtecdesentupidora.com.br",
   "telephone": "+5514997655340",

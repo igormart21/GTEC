@@ -12,8 +12,8 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Sobre Nós - G-tec Desentupidora Porto Alegre',
-  description: 'Conheça a G-tec Desentupidora, empresa especializada em desentupimento em Porto Alegre com mais de 10 anos de experiência e equipamentos modernos.',
+  title: 'Sobre Nós - G-Tec Desentupidora Porto Alegre',
+  description: 'Conheça a G-Tec Desentupidora, empresa especializada em desentupimento em Porto Alegre com mais de 10 anos de experiência e equipamentos modernos.',
   keywords: 'sobre g-tec desentupidora, empresa desentupimento porto alegre, história desentupidora',
 };
 
@@ -61,43 +61,60 @@ export default function SobrePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-accent-red to-primary-light text-white py-20">
+      <section className="bg-gradient-to-r from-primary-soft to-primary-blue text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-poppins font-bold mb-6">
-              Sobre a G-tec Desentupidora
+              Quem Somos
             </h1>
             <p className="text-xl sm:text-2xl text-gray-100 max-w-3xl mx-auto">
-              Mais de 10 anos de experiência em desentupimento em Porto Alegre e região
+              Conheça mais sobre nós: atendimento 24h, equipe qualificada e serviço rápido em Porto Alegre e região
             </p>
           </div>
         </div>
       </section>
 
-      {/* Company Story */}
-      <section className="py-16 bg-primary-green/5">
+      {/* Quem Somos */}
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-primary-soft mb-6">
-                Nossa História
+              <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-neutral-trueDark mb-6">
+                Quem somos
               </h2>
-              <div className="space-y-4 text-gray-600 leading-relaxed">
+              <div className="space-y-4 text-primary-gray leading-relaxed">
                 <p>
-                  A G-tec Desentupidora nasceu da necessidade de oferecer um serviço de qualidade 
-                  e confiança em Porto Alegre. Com mais de 10 anos de experiência no mercado, 
-                  nos tornamos referência em desentupimento na região.
+                  A G‑Tec Desentupidora é especializada em serviços residenciais, comerciais e industriais
+                  em Porto Alegre e região metropolitana. Com anos de experiência, atuamos com rapidez,
+                  eficiência e total cuidado para oferecer soluções duradouras em desentupimento de pias,
+                  vasos sanitários, ralos, redes de esgoto, limpeza de caixas de gordura e fossas sépticas.
                 </p>
                 <p>
-                  Nossa empresa foi fundada com o objetivo de resolver problemas de entupimento 
-                  de forma rápida, eficiente e sem causar danos à propriedade dos nossos clientes. 
-                  Ao longo dos anos, investimos em equipamentos modernos e capacitação da nossa equipe.
+                  Nossa equipe é formada por profissionais qualificados e treinados, que utilizam
+                  equipamentos modernos e técnicas seguras para realizar o serviço com qualidade,
+                  sem sujeira e sem transtornos desnecessários.
                 </p>
-                <p>
-                  Hoje, atendemos Porto Alegre e região metropolitana com uma equipe de técnicos 
-                  especializados e equipamentos de última geração, sempre mantendo nosso compromisso 
-                  com a qualidade e satisfação do cliente.
-                </p>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-xl font-poppins font-semibold text-neutral-trueDark mb-3">Cidades atendidas</h3>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    'Porto Alegre',
+                    'Canoas',
+                    'São Leopoldo',
+                    'Novo Hamburgo',
+                    'Gravataí',
+                    'Viamão',
+                    'Alvorada',
+                    'Cachoeirinha',
+                    'Esteio',
+                    'Sapucaia do Sul'
+                  ].map((city) => (
+                    <span key={city} className="px-3 py-1 rounded-full bg-primary-green/10 text-primary-soft text-sm">
+                      {city}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
             
@@ -122,7 +139,7 @@ export default function SobrePage() {
         </div>
       </section>
 
-      {/* Mission & Vision */}
+      {/* Missão e Visão */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
@@ -131,12 +148,12 @@ export default function SobrePage() {
                 <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-poppins font-bold text-primary-soft mb-4">
-                Nossa Missão
+                Nossa missão
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Proporcionar soluções eficazes em desentupimento, utilizando técnicas modernas 
-                e equipamentos adequados, sempre priorizando a satisfação do cliente e a 
-                preservação de sua propriedade.
+                Oferecer serviços de desentupimento com agilidade, qualidade e respeito ao cliente,
+                utilizando técnicas modernas e equipamentos adequados para resolver com eficiência
+                e profissionalismo.
               </p>
             </div>
 
@@ -145,12 +162,11 @@ export default function SobrePage() {
                 <Star className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-poppins font-bold text-primary-soft mb-4">
-                Nossa Visão
+                Nossa visão
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Ser reconhecida como a melhor empresa de desentupimento de Porto Alegre, 
-                expandindo nossos serviços para toda a região metropolitana e mantendo 
-                sempre o mais alto padrão de qualidade.
+                Ser reconhecida como a melhor desentupidora de Porto Alegre e região,
+                referência em atendimento, tecnologia e responsabilidade ambiental.
               </p>
             </div>
           </div>
@@ -165,7 +181,7 @@ export default function SobrePage() {
               Nossos Valores
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Os princípios que guiam nosso trabalho e garantem a qualidade dos nossos serviços.
+              Na G‑Tec, nossos valores guiam cada atendimento, com ética, respeito e foco na qualidade.
             </p>
           </div>
 
@@ -181,6 +197,85 @@ export default function SobrePage() {
                 <p className="text-gray-600 leading-relaxed">
                   {value.description}
                 </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Por que escolher a G‑Tec */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-neutral-trueDark mb-4">Por que escolher a G‑Tec Desentupidora?</h2>
+            <p className="text-lg text-primary-gray max-w-3xl mx-auto">Serviço de qualidade, rápido e eficiente para resolver qualquer entupimento em Porto Alegre e região, com preço justo e transparência.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { title: 'Preço justo e sem surpresas', desc: 'Orçamentos transparentes e valores acessíveis.' },
+              { title: 'Rapidez e eficiência', desc: 'Atendimento ágil para minimizar transtornos.' },
+              { title: 'Equipamentos modernos', desc: 'Tecnologia de ponta para serviços limpos e seguros.' },
+              { title: 'Profissionais qualificados', desc: 'Equipe experiente e treinada para excelência.' }
+            ].map((item, idx) => (
+              <div key={idx} className="bg-gray-50 rounded-xl p-6 shadow-sm">
+                <div className="flex items-center mb-4">
+                  <CheckCircle className="w-5 h-5 text-primary-green mr-2" />
+                  <h3 className="font-poppins font-semibold text-neutral-trueDark">{item.title}</h3>
+                </div>
+                <p className="text-primary-gray">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Depoimentos */}
+      <section className="py-16 bg-gradient-to-r from-primary-soft to-primary-blue text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-poppins font-bold mb-4">O que nossos clientes dizem</h2>
+            <p className="text-white/90">Atendimento rápido e sem complicação. Veja algumas avaliações:</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { name: 'Heidi Souza', text: 'Muito prestativos, pontuais e educados. Serviço de ótima qualidade. Recomendo!', date: '2025-01-20' },
+              { name: 'Leandro Adolfo Kopper', text: 'Limparam fossa e filtro com rapidez. Bons equipamentos e execução ágil.', date: '2025-01-20' },
+              { name: 'Rodrigo Spanholi', text: 'Rápidos e honestos.', date: '2025-01-20' },
+              { name: 'Joice Imthurn', text: 'Excelente trabalho e atendimento.', date: '2025-01-08' },
+              { name: 'Carmen Gregorio', text: 'Atendimento perfeito, equipe atenciosa e competente. Recomendo!', date: '2025-01-08' }
+            ].map((t, idx) => (
+              <div key={idx} className="rounded-xl bg-white/10 backdrop-blur p-6 shadow-lg">
+                <div className="flex items-center mb-3">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 text-yellow-400" />
+                  ))}
+                </div>
+                <p className="text-white/90 mb-4">{t.text}</p>
+                <div className="text-sm text-white/80">{t.name} • {t.date}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Como funciona o atendimento */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-neutral-trueDark mb-4">Como funciona o atendimento da G‑Tec</h2>
+            <p className="text-lg text-primary-gray max-w-3xl mx-auto">Nosso processo é simples, rápido e pensado para facilitar sua vida — do primeiro contato à finalização do serviço.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { step: '1', title: 'Entre em contato', desc: 'Informe o problema e a localização. Atendimento 24h.' },
+              { step: '2', title: 'Avaliação e orçamento', desc: 'Analisamos a situação e enviamos um orçamento sem compromisso.' },
+              { step: '3', title: 'Deslocamento imediato', desc: 'Com aprovação, nossa equipe vai até você com os equipamentos necessários.' },
+              { step: '4', title: 'Execução limpa e eficiente', desc: 'Serviço rápido, sem sujeira e com total segurança.' }
+            ].map((s, idx) => (
+              <div key={idx} className="bg-gray-50 rounded-xl p-6 shadow-sm">
+                <div className="w-10 h-10 rounded-full bg-primary-green text-white flex items-center justify-center font-poppins font-semibold mb-4">{s.step}</div>
+                <h3 className="font-poppins font-semibold text-neutral-trueDark mb-2">{s.title}</h3>
+                <p className="text-primary-gray">{s.desc}</p>
               </div>
             ))}
           </div>

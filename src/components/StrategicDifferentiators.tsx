@@ -117,7 +117,7 @@ export default function StrategicDifferentiators() {
         >
           <h2 className="text-4xl lg:text-5xl font-poppins font-bold text-white mb-6">
             Por que escolher a{' '}
-            <span className="text-primary-red">G-tec Desentupidora</span>?
+            <span className="text-primary-red">G-Tec Desentupidora</span>?
           </h2>
           <p className="text-xl text-white/90 max-w-4xl mx-auto leading-relaxed">
             Nossos diferenciais garantem o melhor atendimento em desentupimento em Porto Alegre e região.

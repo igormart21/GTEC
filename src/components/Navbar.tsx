@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const menuItems = [
     { href: '/', label: 'Início' },
-    { href: '/sobre', label: 'Sobre' },
+    { href: '/sobre', label: 'Quem Somos' },
     { href: '/galeria', label: 'Galeria' },
     { href: '/contato', label: 'Contato' },
   ];
@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className="relative w-16 h-16 md:w-24 md:h-24 lg:w-28 lg:h-28">
               <Image
                 src="/images/g-tec-logo.png"
-                alt="G-tec Desentupidora Logo"
+                alt="G-Tec Desentupidora Logo"
                 fill
                 sizes="(max-width: 768px) 64px, (max-width: 1024px) 96px, 112px"
                 className="object-contain"

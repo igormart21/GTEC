@@ -19,7 +19,7 @@ const Footer = () => {
 
   const pages = [
     { href: '/', label: 'Início' },
-    { href: '/sobre', label: 'Sobre' },
+    { href: '/sobre', label: 'Quem Somos' },
     { href: '/galeria', label: 'Galeria' },
     { href: '/contato', label: 'Contato' },
   ];
@@ -34,7 +34,7 @@ const Footer = () => {
               <div className="relative w-32 h-32">
                 <Image
                   src="/images/g-tec-logo.png"
-                  alt="G-tec Desentupidora Logo"
+                alt="G-Tec Desentupidora Logo"
                   fill
                   sizes="128px"
                   className="object-contain"
@@ -42,7 +42,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-poppins font-bold">
-                  G-tec Desentupidora
+                  G-Tec Desentupidora
                 </h3>
                 <p className="text-sm text-primary-gray">Porto Alegre</p>
               </div>
@@ -183,7 +183,7 @@ const Footer = () => {
         <div className="border-t border-gray-200 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-primary-gray text-sm">
-              © {currentYear} G-tec Desentupidora. Todos os direitos reservados.
+              © {currentYear} G-Tec Desentupidora. Todos os direitos reservados.
             </p>
             
             <div className="flex space-x-6 text-sm">

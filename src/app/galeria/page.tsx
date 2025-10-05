@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import GalleryGrid from '@/components/GalleryGrid';
 
 export const metadata: Metadata = {
-  title: 'Galeria - G-tec Desentupidora Porto Alegre',
+  title: 'Galeria - G-Tec Desentupidora Porto Alegre',
   description: 'Conheça nossos equipamentos modernos e veja alguns dos nossos trabalhos realizados em Porto Alegre. Equipe especializada e equipamentos de última geração.',
   keywords: 'galeria g-tec desentupidora, equipamentos desentupimento, trabalhos realizados porto alegre',
 };

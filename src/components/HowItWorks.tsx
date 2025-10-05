@@ -43,7 +43,7 @@ export default function HowItWorks() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-poppins font-bold text-white mb-6">
-            Como funciona o atendimento da <span className="text-primary-red">G-tec Desentupidora</span>
+            Como funciona o atendimento da <span className="text-primary-red">G-Tec Desentupidora</span>
           </h2>
           <p className="text-xl text-white/90 max-w-4xl mx-auto leading-relaxed">
             Nosso processo é simples, rápido e pensado para facilitar sua vida. Desde o primeiro contato até a finalização do serviço, garantimos agilidade, clareza e eficiência em cada etapa.

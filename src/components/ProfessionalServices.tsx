@@ -35,7 +35,7 @@ export default function ProfessionalServices() {
             Desentupidora em Porto Alegre com Atendimento 24 Horas
           </h2>
           <p className="text-xl text-white/90 max-w-4xl mx-auto leading-relaxed">
-            A <span className="font-semibold text-white">G-tec Desentupidora</span> é especialista em desentupimentos residenciais, comerciais e industriais em Porto Alegre e região metropolitana. Com atendimento emergencial 24 horas, oferecemos rapidez, eficiência e preço justo.
+            A <span className="font-semibold text-white">G-Tec Desentupidora</span> é especialista em desentupimentos residenciais, comerciais e industriais em Porto Alegre e região metropolitana. Com atendimento emergencial 24 horas, oferecemos rapidez, eficiência e preço justo.
           </p>
         </motion.div>
 
@@ -86,7 +86,7 @@ export default function ProfessionalServices() {
         >
           <div className="bg-gradient-to-r from-primary-soft to-primary-blue rounded-2xl p-8 text-white">
             <h4 className="text-2xl font-poppins font-semibold text-white mb-4">
-              Por que escolher a G-tec Desentupidora?
+              Por que escolher a G-Tec Desentupidora?
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
               <div className="flex items-start space-x-3">

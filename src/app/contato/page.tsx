@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Contato - G-tec Desentupidora Porto Alegre',
-  description: 'Entre em contato com a G-tec Desentupidora. Atendimento 24 horas, orçamento gratuito. Porto Alegre e região. (14) 99765-5340',
+  title: 'Contato - G-Tec Desentupidora Porto Alegre',
+  description: 'Entre em contato com a G-Tec Desentupidora. Atendimento 24 horas, orçamento gratuito. Porto Alegre e região. (14) 99765-5340',
   keywords: 'contato g-tec desentupidora, orçamento desentupimento, telefone desentupidora porto alegre',
 };
 

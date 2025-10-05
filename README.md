@@ -1,6 +1,6 @@
-# G-tec Desentupidora - Website
+# G-Tec Desentupidora - Website
 
-Website profissional para a G-tec Desentupidora, empresa especializada em desentupimento em Porto Alegre e região.
+Website profissional para a G-Tec Desentupidora, empresa especializada em desentupimento em Porto Alegre e região.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -156,4 +156,4 @@ O site está pronto para deploy em:
 
 ## 📝 Licença
 
-Este projeto foi desenvolvido especificamente para a G-tec Desentupidora.
+Este projeto foi desenvolvido especificamente para a G-Tec Desentupidora.
