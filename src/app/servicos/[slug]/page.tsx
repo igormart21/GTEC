@@ -158,7 +158,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 : isEsgoto
                 ? 'Desentupidora de Esgoto em Porto Alegre – Atendimento 24h'
                 : isCaixa
-                ? 'Limpeza de Caixa de Gordura – Residencial e Comercial'
+                ? 'Desentupidora de Caixa de Gordura em Porto Alegre – Atendimento 24h'
                 : service.title}
             </h1>
             <div className="text-xl sm:text-2xl text-gray-100 max-w-3xl mx-auto">
@@ -189,7 +189,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
               ) : isCaixa ? (
                 <>
                   <p>Desentupidora de caixa de gordura em Porto Alegre com higienização completa.</p>
-                  <p>Atendimento 24h para residências, restaurantes e empresas.</p>
+                  <p>Desentupidora de Caixa de Gordura 24h em Porto Alegre para atendimento urgente.</p>
                 </>
               ) : (
                 <p>{service.description}</p>
@@ -575,10 +575,8 @@ export default async function ServicePage({ params }: ServicePageProps) {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="uppercase tracking-wide text-primary-red font-semibold mb-2">Orçamento sem compromisso</p>
-                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-neutral-trueDark mb-4">Limpeza de Caixa de Gordura</h2>
-                <p className="text-lg text-primary-gray leading-relaxed mb-6">
-                  A caixa de gordura é essencial para o bom funcionamento da rede, evitando que óleos e resíduos obstruam as tubulações. A G‑Tec realiza limpeza de caixa de gordura em residências, comércios, condomínios e indústrias, com equipe experiente e higienização completa para eliminar mau cheiro e prevenir entupimentos.
-                </p>
+                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-neutral-trueDark mb-4">Desentupidora de caixa de gordura – Porto Alegre</h2>
+                <p className="text-lg text-primary-gray leading-relaxed mb-6">Precisa de <strong>desentupidora de caixa de gordura</strong>? Atuamos com <strong>Desentupidora de Caixa de Gordura 24h em Porto Alegre</strong> e resposta rápida para <strong>desentupidora de caixa de gordura urgente em Porto Alegre</strong>. Higienização completa para residências, restaurantes e empresas.</p>
                 <div className="space-y-3">
                   {[ 'Atendimento 24 horas', 'Sem sujeira e com agilidade', 'Equipe experiente', 'Preço justo e sem surpresa' ].map((item, idx) => (
                     <div key={idx} className="flex items-center space-x-3">
@@ -609,91 +607,25 @@ export default async function ServicePage({ params }: ServicePageProps) {
         </section>
       )}
 
-      {/* Caixa de Gordura - Danos causados */}
+      {/* Caixa de Gordura - Por que contratar a G‑Tec */}
       {isCaixa && (
         <section className="py-16 bg-gradient-to-r from-primary-soft to-primary-blue text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               <div>
-                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-white mb-4">Danos causados pela falta de limpeza da caixa de gordura</h2>
-                <p className="text-white/90 mb-6">
-                  Quando a caixa de gordura não recebe manutenção periódica, o acúmulo de resíduos pode gerar
-                  problemas sérios no imóvel e até impactar a rede pública de esgoto. A G‑Tec atua de forma
-                  preventiva e corretiva para evitar transtornos e custos desnecessários.
-                </p>
+                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-white mb-4">Por que contratar a G‑Tec Desentupidora de caixa de gordura em Porto Alegre</h2>
+                <p className="text-white/90 mb-6">Somos referência como <strong>Desentupidora de Caixa de Gordura 24h em Porto Alegre</strong>, com atendimento urgente. Higienização completa que elimina mau cheiro e previne entupimentos.</p>
                 <ul className="space-y-3">
-                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90"><strong className="text-white">Mau cheiro:</strong> acúmulo de gordura em decomposição libera odores desagradáveis.</p></li>
-                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90"><strong className="text-white">Entupimento das tubulações:</strong> gordura solidificada bloqueia canos e impede o escoamento.</p></li>
-                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90"><strong className="text-white">Proliferação de insetos e pragas:</strong> ambiente sujo atrai baratas, moscas e vetores de doenças.</p></li>
-                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90"><strong className="text-white">Custos elevados de reparo:</strong> a falta de manutenção exige intervenções mais complexas e caras.</p></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Esgoto - Danos causados */}
-      {isEsgoto && (
-        <section className="py-16 bg-gradient-to-r from-primary-soft to-primary-blue text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-start">
-              <div>
-                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-white mb-4">Danos causados por entupimento de esgoto</h2>
-                <p className="text-white/90 mb-6">
-                  O entupimento do sistema de esgoto pode gerar consequências graves, afetando a saúde e até a estrutura do imóvel. A G‑Tec atua com rapidez para evitar esses riscos.
-                </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90"><strong className="text-white">Mau cheiro:</strong> esgoto parado libera gases que se espalham pelo ambiente.</p></li>
-                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90"><strong className="text-white">Proliferação de pragas:</strong> resíduos favorecem ratos, baratas e outros insetos.</p></li>
-                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90"><strong className="text-white">Refluxo de esgoto:</strong> retorno de água suja para pias, ralos e vasos, com risco de contaminação.</p></li>
-                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90"><strong className="text-white">Danos estruturais:</strong> infiltrações e vazamentos podem comprometer paredes e pisos.</p></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Ralo - Por que contratar a G‑Tec */}
-      {isRalo && (
-        <section className="py-16 bg-gradient-to-r from-primary-soft to-primary-blue text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-12 items-start">
-              <div>
-                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-white mb-4">Por que contratar a G‑Tec Desentupidora de ralo em Porto Alegre</h2>
-                <p className="text-white/90 mb-6">Somos referência como <strong>Desentupidora de Ralo 24h em Porto Alegre</strong>, com atendimento urgente. Atuamos em residências, comércios e condomínios, desentupindo ralos com segurança e sem quebrar pisos.</p>
-                <ul className="space-y-3">
-                  <li className="flex items-start space-x-3">
-                    <span className="mt-2 w-2 h-2 rounded-full bg-white" />
-                    <p className="text-white/90">Atendimento <strong>urgente</strong> 24h para desentupir seu ralo no menor tempo possível.</p>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <span className="mt-2 w-2 h-2 rounded-full bg-white" />
-                    <p className="text-white/90">Equipamentos de alta pressão e técnicas modernas, sem quebrar pisos.</p>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <span className="mt-2 w-2 h-2 rounded-full bg-white" />
-                    <p className="text-white/90">Diagnóstico preciso para evitar <strong>entupimentos recorrentes</strong> e gastos futuros.</p>
-                  </li>
-                  <li className="flex items-start space-x-3">
-                    <span className="mt-2 w-2 h-2 rounded-full bg-white" />
-                    <p className="text-white/90">Equipe própria, preço justo e <strong>garantia de 90 dias</strong>.</p>
-                  </li>
+                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90">Atendimento <strong>urgente</strong> 24h para limpar/desentupir sua caixa de gordura.</p></li>
+                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90">Procedimentos seguros e higiênicos, sem sujeira.</p></li>
+                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90">Prevenção de <strong>entupimentos recorrentes</strong> com orientação técnica.</p></li>
+                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90">Equipe própria, preço justo e <strong>garantia de 90 dias</strong>.</p></li>
                 </ul>
                 <div className="mt-8">
                   <a className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-red to-primary-red/80 text-white rounded-lg font-poppins font-semibold hover:from-primary-dark hover:to-primary-red hover:scale-105 transition-all duration-300 shadow-xl border-2 border-primary-red hover:border-primary-dark" href="https://wa.me/5514997655340">
                     <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487"/></svg>
                     Falar no WhatsApp
                   </a>
-                </div>
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="relative h-48 sm:h-64 lg:h-72 rounded-xl overflow-hidden shadow-lg">
-                  <Image src={raloImgPrimary} alt="Equipamento G‑Tec desentupindo ralo" fill className="object-cover" sizes="(max-width: 768px) 50vw, 25vw" />
-                </div>
-                <div className="relative h-48 sm:h-64 lg:h-72 rounded-xl overflow-hidden shadow-lg">
-                  <Image src={raloImgAlt} alt="Ralo entupido sendo desobstruído" fill className="object-cover" sizes="(max-width: 768px) 50vw, 25vw" />
                 </div>
               </div>
             </div>
