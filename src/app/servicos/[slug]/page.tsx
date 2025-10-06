@@ -156,7 +156,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 : isFossa
                 ? 'Limpeza de Fossa Séptica'
                 : isEsgoto
-                ? 'Desentupimento de Esgoto – Equipe Especializada'
+                ? 'Desentupidora de Esgoto em Porto Alegre – Atendimento 24h'
                 : isCaixa
                 ? 'Limpeza de Caixa de Gordura – Residencial e Comercial'
                 : service.title}
@@ -510,10 +510,8 @@ export default async function ServicePage({ params }: ServicePageProps) {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="uppercase tracking-wide text-primary-red font-semibold mb-2">Orçamento sem compromisso</p>
-                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-neutral-trueDark mb-4">Desentupimento de Esgoto</h2>
-                <p className="text-lg text-primary-gray leading-relaxed mb-6">
-                  Um esgoto entupido pode causar mau cheiro, refluxos e risco de contaminação. A G‑Tec Desentupidora atende residências, empresas, comércios e condomínios com soluções rápidas e eficazes, utilizando equipamentos modernos e técnicas adequadas para restabelecer o fluxo com segurança e sem sujeira.
-                </p>
+                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-neutral-trueDark mb-4">Desentupidora de esgoto – Porto Alegre</h2>
+                <p className="text-lg text-primary-gray leading-relaxed mb-6">Precisa de <strong>desentupidora de esgoto</strong>? Atuamos com <strong>Desentupidora de Esgoto 24h em Porto Alegre</strong> e resposta rápida para <strong>desentupidora de esgoto urgente em Porto Alegre</strong>. Solução segura em redes internas e externas, sem sujeira.</p>
                 <div className="space-y-3">
                   {[ 'Atendimento 24 horas', 'Sem sujeira e com agilidade', 'Equipe experiente', 'Preço justo e sem surpresa' ].map((item, idx) => (
                     <div key={idx} className="flex items-center space-x-3">
@@ -538,6 +536,32 @@ export default async function ServicePage({ params }: ServicePageProps) {
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Esgoto - Por que contratar a G‑Tec */}
+      {isEsgoto && (
+        <section className="py-16 bg-gradient-to-r from-primary-soft to-primary-blue text-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
+              <div>
+                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-white mb-4">Por que contratar a G‑Tec Desentupidora de esgoto em Porto Alegre</h2>
+                <p className="text-white/90 mb-6">Somos referência como <strong>Desentupidora de Esgoto 24h em Porto Alegre</strong>, com atendimento urgente. Resolvemos entupimentos em redes internas e externas com segurança e eficiência.</p>
+                <ul className="space-y-3">
+                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90">Atendimento <strong>urgente</strong> 24h para desentupir seu esgoto o quanto antes.</p></li>
+                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90">Equipamentos profissionais e técnicas modernas, sem sujeira.</p></li>
+                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90">Diagnóstico preciso para evitar <strong>entupimentos recorrentes</strong>.</p></li>
+                  <li className="flex items-start space-x-3"><span className="mt-2 w-2 h-2 rounded-full bg-white" /><p className="text-white/90">Equipe própria, preço justo e <strong>garantia de 90 dias</strong>.</p></li>
+                </ul>
+                <div className="mt-8">
+                  <a className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-red to-primary-red/80 text-white rounded-lg font-poppins font-semibold hover:from-primary-dark hover:to-primary-red hover:scale-105 transition-all duration-300 shadow-xl border-2 border-primary-red hover:border-primary-dark" href="https://wa.me/5514997655340">
+                    <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487"/></svg>
+                    Falar no WhatsApp
+                  </a>
+                </div>
               </div>
             </div>
           </div>
