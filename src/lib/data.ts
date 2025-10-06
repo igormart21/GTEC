@@ -18,7 +18,7 @@ export const services: Service[] = [
   {
     id: '2',
     title: 'Desentupidora de Pia',
-    description: 'Especialistas em desentupimento de pias com técnicas avançadas e produtos específicos.',
+    description: 'Desentupidora de pia em Porto Alegre com atendimento 24h e resposta urgente. Especialistas em desentupimento de pias residenciais e comerciais com técnicas avançadas, sem sujeira e com orçamento gratuito.',
     icon: 'Droplets',
     slug: 'desentupidora-pia-porto-alegre',
     features: [
