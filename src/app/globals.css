@@ -58,8 +58,8 @@ body {
 /* Garante fundo azul consistente no mobile */
 @media (max-width: 768px) {
   :root {
-    /* Azul padrão do site no mobile */
-    --background: #0D3B66; /* primary.dark */
+    /* Azul um pouco mais escuro para o mobile */
+    --background: #0B2E54;
     --foreground: #ffffff;
   }
 }

@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-primary-dark to-primary-blue text-white overflow-hidden min-h-screen">
+    <section className="relative bg-gradient-to-br from-[#0B2E54] to-primary-blue text-white overflow-hidden min-h-screen">
       {/* Background Image */}
       <div className="absolute inset-0">
         <div 
