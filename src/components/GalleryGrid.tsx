@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import Image from 'next/image';
 import { galleryImages } from '@/lib/data';
 
 const GalleryGrid = () => {
@@ -56,15 +57,14 @@ const GalleryGrid = () => {
               className="relative group cursor-pointer rounded-xl overflow-hidden shadow-lg"
               onClick={() => openModal(index)}
             >
-              <div className="aspect-square bg-gray-200 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white font-bold text-xl">
-                      {image.category.charAt(0).toUpperCase()}
-                    </span>
-                  </div>
-                  <p className="text-gray-600 font-medium">{image.alt}</p>
-                </div>
+              <div className="relative aspect-square">
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover"
+                />
               </div>
               
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
@@ -142,25 +142,25 @@ const GalleryGrid = () => {
                 <ChevronRight className="w-6 h-6 text-gray-800" />
               </button>
 
-              <div className="bg-primary-green/10 border border-primary-green/20 rounded-xl p-8">
-                <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center mb-4">
-                  <div className="text-center">
-                    <div className="w-24 h-24 bg-primary-green rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white font-bold text-3xl">
-                        {galleryImages[currentIndex].category.charAt(0).toUpperCase()}
-                      </span>
-                    </div>
-                    <h3 className="text-xl font-poppins font-semibold text-primary-soft mb-2">
-                      {galleryImages[currentIndex].alt}
-                    </h3>
-                    <p className="text-gray-600">
-                      Categoria: {galleryImages[currentIndex].category}
-                    </p>
-                  </div>
+              <div className="bg-primary-green/10 border border-primary-green/20 rounded-xl p-2 sm:p-4">
+                <div className="relative aspect-video rounded-lg overflow-hidden mb-3 sm:mb-4">
+                  <Image
+                    src={galleryImages[currentIndex].src}
+                    alt={galleryImages[currentIndex].alt}
+                    fill
+                    sizes="100vw"
+                    className="object-cover"
+                    priority
+                  />
                 </div>
-                
-                <div className="text-center">
-                  <p className="text-sm text-gray-500">
+                <div className="px-2 sm:px-4 pb-2 sm:pb-4 text-center">
+                  <h3 className="text-lg font-poppins font-semibold text-primary-soft mb-1">
+                    {galleryImages[currentIndex].alt}
+                  </h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    Categoria: {galleryImages[currentIndex].category}
+                  </p>
+                  <p className="text-xs text-gray-500">
                     {currentIndex + 1} de {galleryImages.length}
                   </p>
                 </div>

@@ -168,38 +168,38 @@ export const faqs: FAQ[] = [
 export const galleryImages: GalleryImage[] = [
   {
     id: '1',
-    src: '/images/gallery/desentupimento-1.jpg',
-    alt: 'Equipamento de desentupimento profissional',
+    src: '/images/professional-service-1.jpg',
+    alt: 'Serviço profissional de desentupimento',
     category: 'equipamentos'
   },
   {
     id: '2',
-    src: '/images/gallery/desentupimento-2.jpg',
-    alt: 'Técnico trabalhando em desentupimento',
+    src: '/images/professional-service-2.jpg',
+    alt: 'Equipe técnica em atendimento',
     category: 'servicos'
   },
   {
     id: '3',
-    src: '/images/gallery/limpa-fossa-1.jpg',
-    alt: 'Caminhão limpa-fossa em ação',
+    src: '/images/strategic-differentiator-1.jpg',
+    alt: 'Equipamentos modernos de inspeção',
     category: 'limpa-fossa'
   },
   {
     id: '4',
-    src: '/images/gallery/equipe-1.jpg',
-    alt: 'Equipe técnica especializada',
+    src: '/images/strategic-differentiator-2.jpg',
+    alt: 'Técnicas avançadas em campo',
     category: 'equipe'
   },
   {
     id: '5',
-    src: '/images/gallery/desentupimento-3.jpg',
-    alt: 'Desentupimento de esgoto',
+    src: '/images/hero-background.png',
+    alt: 'Atendimento 24h G‑Tec',
     category: 'servicos'
   },
   {
     id: '6',
-    src: '/images/gallery/equipamentos-1.jpg',
-    alt: 'Equipamentos modernos',
+    src: '/images/hero-background-new.jpg',
+    alt: 'Tecnologia e segurança',
     category: 'equipamentos'
   }
 ];

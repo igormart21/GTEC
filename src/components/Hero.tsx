@@ -10,12 +10,9 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat md:bg-fixed bg-scroll"
           style={{
-            backgroundImage: "url('/images/hero-background.png')",
-            backgroundPosition: 'left center',
-            backgroundSize: 'cover',
-            backgroundAttachment: 'fixed'
+            backgroundImage: "url('/images/hero-background.png')"
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary-soft/90 via-primary-soft/70 to-primary-soft/30"></div>
