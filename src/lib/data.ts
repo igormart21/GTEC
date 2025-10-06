@@ -32,7 +32,7 @@ export const services: Service[] = [
   {
     id: '3',
     title: 'Desentupidora de Ralo',
-    description: 'Desentupimento profissional de ralos com equipamentos de alta pressão.',
+    description: 'Desentupidora de ralo em Porto Alegre com atendimento 24h e resposta urgente. Desentupimento de ralos internos e externos com equipamentos de alta pressão, sem quebrar pisos e com orçamento gratuito.',
     icon: 'Circle',
     slug: 'desentupidora-ralo-porto-alegre',
     features: [

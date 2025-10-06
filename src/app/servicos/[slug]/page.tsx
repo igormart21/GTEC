@@ -150,7 +150,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
               {isPia
                 ? 'Desentupidora de Pia em Porto Alegre – Atendimento 24h'
                 : isRalo
-                ? 'Desentupimento de Ralo – Residencial e Comercial'
+                ? 'Desentupidora de Ralo em Porto Alegre – Atendimento 24h'
                 : isVaso
                 ? 'Desentupimento de Vaso Sanitário – Atendimento 24h'
                 : isFossa
@@ -168,8 +168,8 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 </>
               ) : isRalo ? (
                 <>
-                  <p>Desentupimento de ralos internos e externos,</p>
-                  <p>com equipamentos modernos e sem quebrar pisos.</p>
+                  <p>Desentupidora de ralo em Porto Alegre com equipe experiente e equipamentos de alta pressão.</p>
+                  <p>Desentupidora de ralo 24h em Porto Alegre para atendimento urgente, sem quebrar pisos.</p>
                 </>
               ) : isVaso ? (
                 <>
@@ -311,9 +311,9 @@ export default async function ServicePage({ params }: ServicePageProps) {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="uppercase tracking-wide text-primary-red font-semibold mb-2">Orçamento sem compromisso</p>
-                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-neutral-trueDark mb-4">Desentupimento de Ralo</h2>
+                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-neutral-trueDark mb-4">Desentupidora de ralo – Porto Alegre</h2>
                 <p className="text-lg text-primary-gray leading-relaxed mb-6">
-                  Um ralo entupido pode causar alagamentos, mau cheiro e atrapalhar a rotina em casas e estabelecimentos comerciais. A G‑Tec Desentupidora oferece soluções rápidas e eficazes para o desentupimento de ralos internos e externos, utilizando equipamentos modernos e técnicas seguras que garantem a desobstrução sem sujeira e sem dor de cabeça.
+                  Precisa de <strong>desentupidora de ralo</strong>? Atuamos em toda a cidade com <strong>Desentupidora de Ralo 24h em Porto Alegre</strong> e resposta rápida para casos de <strong>desentupidora de ralo urgente em Porto Alegre</strong>. Desentupimos ralos internos e externos sem quebrar pisos, com segurança e eficiência.
                 </p>
                 <div className="space-y-3">
                   {[ 'Atendimento 24 horas', 'Sem sujeira e com agilidade', 'Equipe experiente', 'Preço justo e sem surpresa' ].map((item, idx) => (
@@ -629,32 +629,30 @@ export default async function ServicePage({ params }: ServicePageProps) {
         </section>
       )}
 
-      {/* Ralo - Danos causados */}
+      {/* Ralo - Por que contratar a G‑Tec */}
       {isRalo && (
         <section className="py-16 bg-gradient-to-r from-primary-soft to-primary-blue text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               <div>
-                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-white mb-4">Danos causados por entupimento de ralo</h2>
-                <p className="text-white/90 mb-6">
-                  O entupimento de ralos pode gerar sérios transtornos no dia a dia. A G‑Tec atua rápido para evitar prejuízos e riscos à saúde, com atendimento 24h em Porto Alegre e região.
-                </p>
+                <h2 className="text-3xl sm:text-4xl font-poppins font-bold text-white mb-4">Por que contratar a G‑Tec Desentupidora de ralo em Porto Alegre</h2>
+                <p className="text-white/90 mb-6">Somos referência como <strong>Desentupidora de Ralo 24h em Porto Alegre</strong>, com atendimento urgente. Atuamos em residências, comércios e condomínios, desentupindo ralos com segurança e sem quebrar pisos.</p>
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3">
                     <span className="mt-2 w-2 h-2 rounded-full bg-white" />
-                    <p className="text-white/90"><strong className="text-white">Mau cheiro:</strong> resíduos orgânicos em decomposição liberam odores desagradáveis pelo ambiente.</p>
+                    <p className="text-white/90">Atendimento <strong>urgente</strong> 24h para desentupir seu ralo no menor tempo possível.</p>
                   </li>
                   <li className="flex items-start space-x-3">
                     <span className="mt-2 w-2 h-2 rounded-full bg-white" />
-                    <p className="text-white/90"><strong className="text-white">Proliferação de insetos e bactérias:</strong> ralos obstruídos favorecem baratas e microrganismos nocivos.</p>
+                    <p className="text-white/90">Equipamentos de alta pressão e técnicas modernas, sem quebrar pisos.</p>
                   </li>
                   <li className="flex items-start space-x-3">
                     <span className="mt-2 w-2 h-2 rounded-full bg-white" />
-                    <p className="text-white/90"><strong className="text-white">Alagamentos:</strong> a água acumulada pode danificar pisos, móveis e estruturas.</p>
+                    <p className="text-white/90">Diagnóstico preciso para evitar <strong>entupimentos recorrentes</strong> e gastos futuros.</p>
                   </li>
                   <li className="flex items-start space-x-3">
                     <span className="mt-2 w-2 h-2 rounded-full bg-white" />
-                    <p className="text-white/90"><strong className="text-white">Gastos extras:</strong> adiar a solução aumenta o custo com reparos e manutenção.</p>
+                    <p className="text-white/90">Equipe própria, preço justo e <strong>garantia de 90 dias</strong>.</p>
                   </li>
                 </ul>
                 <div className="mt-8">
