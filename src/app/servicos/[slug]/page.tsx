@@ -152,13 +152,13 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 : isRalo
                 ? 'Desentupidora de Ralo em Porto Alegre – Atendimento 24h'
                 : isVaso
-                ? 'Desentupimento de Vaso Sanitário – Atendimento 24h'
+                ? 'Desentupidora de Vaso em Porto Alegre – Atendimento 24h'
                 : isFossa
-                ? 'Limpeza de Fossa Séptica'
+                ? 'Limpa Fossa em Porto Alegre – Atendimento 24h'
                 : isEsgoto
-                ? 'Desentupimento de Esgoto – Equipe Especializada'
+                ? 'Desentupidora de Esgoto em Porto Alegre – Atendimento 24h'
                 : isCaixa
-                ? 'Limpeza de Caixa de Gordura – Residencial e Comercial'
+                ? 'Desentupidora de Caixa de Gordura em Porto Alegre – Atendimento 24h'
                 : service.title}
             </h1>
             <div className="text-xl sm:text-2xl text-gray-100 max-w-3xl mx-auto">
@@ -173,23 +173,23 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 </>
               ) : isVaso ? (
                 <>
-                  <p>Serviço especializado em desentupimento de vaso sanitário.</p>
-                  <p>Rápido, eficiente e sem sujeira. Atendemos em Porto Alegre e região metropolitana.</p>
+                  <p>Desentupidora de vaso em Porto Alegre com equipe própria e técnicas seguras.</p>
+                  <p>Desentupidora de vaso 24h em Porto Alegre para atendimento urgente, sem quebrar e sem sujeira.</p>
                 </>
               ) : isFossa ? (
                 <>
-                  <p>Serviço de limpeza de fossa séptica e manutenção com caminhão a vácuo.</p>
-                  <p>Atendemos em Penha, Navegantes, Barra Velha e Balneário Piçarras.</p>
+                  <p>Limpa fossa em Porto Alegre com caminhão a vácuo e equipe experiente.</p>
+                  <p>Atendimento 24h com descarte ambientalmente correto.</p>
                 </>
               ) : isEsgoto ? (
                 <>
-                  <p>Serviço especializado em desentupimento de esgoto.</p>
-                  <p>Atendemos em Porto Alegre e região metropolitana.</p>
+                  <p>Desentupidora de esgoto em Porto Alegre com resposta urgente e equipamentos profissionais.</p>
+                  <p>Atendimento 24h em redes internas e externas.</p>
                 </>
               ) : isCaixa ? (
                 <>
-                  <p>Limpeza de caixa de gordura para residências, restaurantes e empresas.</p>
-                  <p>Atendemos em Porto Alegre e região metropolitana.</p>
+                  <p>Desentupidora de caixa de gordura em Porto Alegre com higienização completa.</p>
+                  <p>Atendimento 24h para residências, restaurantes e empresas.</p>
                 </>
               ) : (
                 <p>{service.description}</p>

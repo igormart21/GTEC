@@ -46,7 +46,7 @@ export const services: Service[] = [
   {
     id: '4',
     title: 'Desentupidora de Vaso',
-    description: 'Serviço especializado em desentupimento de vasos sanitários com técnicas seguras.',
+    description: 'Desentupidora de vaso em Porto Alegre com atendimento 24h e resposta urgente. Técnicas seguras que não quebram e não fazem sujeira, com orçamento gratuito.',
     icon: 'Toilet',
     slug: 'desentupidora-vaso-porto-alegre',
     features: [
@@ -60,7 +60,7 @@ export const services: Service[] = [
   {
     id: '5',
     title: 'Desentupidora de Esgoto',
-    description: 'Desentupimento de redes de esgoto com equipamentos profissionais.',
+    description: 'Desentupidora de esgoto em Porto Alegre 24h, com atendimento urgente. Equipamentos profissionais e solução segura para redes internas e externas.',
     icon: 'Zap',
     slug: 'desentupidora-esgoto-porto-alegre',
     features: [
@@ -74,7 +74,7 @@ export const services: Service[] = [
   {
     id: '6',
     title: 'Desentupidora de Caixa de Gordura',
-    description: 'Limpeza e desentupimento de caixas de gordura com produtos específicos.',
+    description: 'Limpeza de caixa de gordura em Porto Alegre 24h, atendimento urgente para residências, restaurantes e empresas. Higienização completa e prevenção de entupimentos.',
     icon: 'Box',
     slug: 'desentupidora-caixa-gordura-porto-alegre',
     features: [
@@ -88,7 +88,7 @@ export const services: Service[] = [
   {
     id: '7',
     title: 'Limpa Fossa',
-    description: 'Serviço completo de limpeza de fossas sépticas com caminhão limpa-fossa.',
+    description: 'Limpa fossa em Porto Alegre 24h com caminhão a vácuo, resposta urgente e descarte ambientalmente correto. Atendimento residencial e comercial.',
     icon: 'Truck',
     slug: 'limpa-fossa-porto-alegre',
     features: [
