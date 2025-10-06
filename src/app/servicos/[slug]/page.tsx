@@ -165,7 +165,6 @@ export default async function ServicePage({ params }: ServicePageProps) {
               {isPia ? (
                 <>
                   <p>Desentupidora de pia em Porto Alegre com equipe própria e equipamentos modernos.</p>
-                  <p>Desentupidora de Pia 24h em Porto Alegre, atendimento urgente para resolver entupimento de pia com rapidez e sem sujeira.</p>
                 </>
               ) : isRalo ? (
                 <>
