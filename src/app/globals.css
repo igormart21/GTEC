@@ -55,6 +55,15 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+/* Garante fundo azul consistente no mobile */
+@media (max-width: 768px) {
+  :root {
+    /* Gradiente similar ao Hero para manter identidade visual */
+    --background: linear-gradient(to bottom right, #D72638, #3D5A80);
+    --foreground: #ffffff;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
